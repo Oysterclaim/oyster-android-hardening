@@ -1,0 +1,15 @@
+{
+  "name": "@oyster/oyster-android-hardening",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Android dependency bytecode patch toolkit for hardening shipped artifacts and cleaning mobile security scan findings.",
+  "type": "commonjs",
+  "scripts": {
+    "patch:rng": "node scripts/patch-android-rng-jars.cjs",
+    "patch:sha1": "node scripts/patch-sha1-android-jars.cjs",
+    "patch:md5": "node scripts/patch-expo-runtime-md5-jars.cjs",
+    "patch:external-storage": "node scripts/patch-external-storage-android-jars.cjs",
+    "patch:tempfile": "node scripts/patch-imagepipeline-tempfile-jars.cjs",
+    "patch:strings": "node scripts/patch-hardcoded-strings-android-jars.cjs"
+  }
+}
