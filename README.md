@@ -2,7 +2,7 @@
 
 Android dependency bytecode patch toolkit for hardening the artifact you actually ship.
 
-Built by [Oyster](https://github.com/LandLord64), this repo packages the JVM and Node tooling Oyster used to patch third-party Android jars and AARs in-place when upstream dependencies shipped findings that security scanners still counted:
+Built by [Oyster](https://github.com/Oysterclaim), this repo packages the JVM and Node tooling Oyster used to patch third-party Android jars and AARs in-place when upstream dependencies shipped findings that security scanners still counted:
 - weak RNG usage
 - SHA-1 / MD5 / hardcoded string hotspots
 - external storage access
@@ -60,7 +60,7 @@ Oyster Android Hardening is an open-source toolkit for patching Android dependen
 
 ## Part of the Oyster open-source stack
 
-- [oyster-runner](https://github.com/LandLord64/oyster-runner): adapter-driven secure WebView runner core for guided claim and form flows
+- [oyster-runner](https://github.com/Oysterclaim/oyster-runner): adapter-driven secure WebView runner core for guided claim and form flows
 
 If you are here from the Oyster profile, this repo is the mobile-security side of the stack. The runner repo is the product-engine side.
 
